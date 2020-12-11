@@ -15,6 +15,7 @@ class LoginForm extends React.Component{
     resetLogin(){
         localStorage.setItem("isLoggingIn", 'false');
         localStorage.setItem('UserIsLoggedIn', 'false');
+        localStorage.setItem('UserInfo', null);
         this.forceUpdate();
     }
 

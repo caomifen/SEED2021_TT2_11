@@ -1,6 +1,5 @@
 import React, {useState, useEffect} from 'react';
 import axios from 'axios';
-import {useHistory} from 'react-router-dom';
 
 const API_LOGIN_URL = "https://u8fpqfk2d4.execute-api.ap-southeast-1.amazonaws.com/techtrek2020/login";
 const API_KEY =  "hVEEbI23nv4edfhWFkbLr11WQ9KL0mtU8paHpkJE";

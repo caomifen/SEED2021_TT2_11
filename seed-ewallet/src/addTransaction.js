@@ -90,7 +90,7 @@ export default class AddTransaction extends React.Component {
   render() {
     return (
       <h1>
-        Make a transation
+        Make a transaction
       </h1>
     )
   }
